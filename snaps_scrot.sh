@@ -15,4 +15,5 @@ if [ ! -d "$HOME/$DIR_SNAPS" ]; then
 	mkdir $HOME/$DIR_SNAPS
 fi
 
-scrot $HOME/$DIR_SNAPS/snap_scrot_$DATE.png
+cd $HOME/$DIR_SNAPS
+scrot snap_scrot_%Y%m%d-%H%M%S.png
