@@ -15,8 +15,5 @@ if [ ! -d "$HOME/$DIR_SNAPS" ]; then
 	mkdir $HOME/$DIR_SNAPS
 fi
 
-<<<<<<< HEAD
-=======
 # Using scrot instead of import
->>>>>>> edited ‘snaps.sh’
 scrot $HOME/$DIR_SNAPS/snap_$DATE.png
