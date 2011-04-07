@@ -15,4 +15,4 @@ if [ ! -d "$HOME/$DIR_SNAPS" ]; then
 	mkdir $HOME/$DIR_SNAPS
 fi
 
-import -window root -display :0 $HOME/$DIR_SNAPS/snap_$DATE.png
+scrot $HOME/$DIR_SNAPS/snap_$DATE.png
