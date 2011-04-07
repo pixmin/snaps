@@ -16,4 +16,4 @@ if [ ! -d "$HOME/$DIR_SNAPS" ]; then
 fi
 
 # Using scrot instead of import
-scrot $HOME/$DIR_SNAPS/snap_$DATE.png
+/usr/bin/scrot $HOME/$DIR_SNAPS/snap_$DATE.png
