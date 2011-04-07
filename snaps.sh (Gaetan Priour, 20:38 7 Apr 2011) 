@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Where is the script
-HOME="/home/gaetan/SparkleShare/snaps"
+HOME="/home/gaetan/Projects/snaps"
 
 # Where to store the screenshots
 DIR_SNAPS="screenshots"
@@ -15,5 +15,4 @@ if [ ! -d "$HOME/$DIR_SNAPS" ]; then
 	mkdir $HOME/$DIR_SNAPS
 fi
 
-# Using scrot instead of import
-/usr/bin/scrot $HOME/$DIR_SNAPS/snap_$DATE.png
+import -window root -display :0 $HOME/$DIR_SNAPS/snap_$DATE.png
