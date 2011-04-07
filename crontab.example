@@ -1,0 +1,3 @@
+# Crontab example
+# Run the script every 15 minutes
+*/15 * * * * /home/gaetan/Projects/snaps/snaps.sh
