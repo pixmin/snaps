@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Where is the script
-HOME="/home/gaetan/Projects/snaps"
+HOME="/home/gaetan/SparkleShare/snaps"
 
 # Where to store the screenshots
 DIR_SNAPS="screenshots"
